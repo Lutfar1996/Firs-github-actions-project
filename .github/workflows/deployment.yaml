@@ -17,7 +17,7 @@ jobs:
 
   deploy:
     needs: test
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Get code
         uses: actions/checkout@v3
